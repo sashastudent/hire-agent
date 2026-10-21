@@ -1,1 +1,1 @@
-# hire-bot
+# hire-agent
