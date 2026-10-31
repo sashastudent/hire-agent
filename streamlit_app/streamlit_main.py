@@ -1,9 +1,12 @@
 import streamlit as st
 import app.main as agent
+from uuid import uuid4
 
 st.title("Job Hire Agent")
 
-# אתחול פעם אחת עבור השיחה הנוכחית
+if "session_id" not in st.session_state:
+    st.session_state.session_id = str(uuid4())
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -23,7 +26,7 @@ if user_input:
     with st.chat_message("user"):
         st.write(user_input)
 
-    answer = agent.run_agent(user_input)
+    answer = agent.orchestrate_conversation_with_memory(user_input, st.session_state.session_id)
 
     st.session_state.messages.append({
         "role": "assistant",
@@ -32,3 +35,5 @@ if user_input:
 
     with st.chat_message("assistant"):
         st.write(answer)
+
+
