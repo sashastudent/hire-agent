@@ -24,7 +24,6 @@ main_prompt = ChatPromptTemplate.from_messages([
         MessagesPlaceholder(variable_name="history"),
         ("user","{input}"),
         MessagesPlaceholder(variable_name="agent_scratchpad")
-
 ])
 
 main_agent = create_openai_tools_agent(llm, tools=[], prompt=main_prompt)

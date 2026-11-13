@@ -1,20 +1,7 @@
-from langchain_core.tools import tool
-from datetime import datetime, timedelta
+from app.modules.interview_scheduling_advisor.tools import get_next_three_dates
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_classic.agents import create_openai_tools_agent, AgentExecutor
 from langchain_openai import ChatOpenAI
-
-#Creating the function
-@tool
-def get_next_three_dates(start_date):
-    'This fuction recieves a date and then return 3 optional dates'
-    # start_date should be a string in the format 'YYYY-MM-DD'
-    date_obj = datetime.strptime(start_date, "%Y-%m-%d")
-    return [
-        (date_obj + timedelta(days=3)).strftime("%Y-%m-%d"),
-        (date_obj + timedelta(days=6)).strftime("%Y-%m-%d"),
-        (date_obj + timedelta(days=9)).strftime("%Y-%m-%d"),
-    ]
 
 
 tools = [get_next_three_dates]
