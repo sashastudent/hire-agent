@@ -1,0 +1,1334 @@
+[
+  {
+    "conversation_id": 101,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1100",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-01T14:09:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-01T14:09:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-01T14:10:20Z",
+        "text": "I have four years of Python experience, mostly backend work.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-01T14:12:13Z",
+        "text": "Sounds great. Would you be available for an interview Tuesday at 10 AM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-01T14:12:49Z",
+        "text": "Tuesday at 10 AM works.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-01T14:13:28Z",
+        "text": "Perfect, you're booked for Tuesday at 10 AM. You'll get a calendar invite shortly.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 102,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1101",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-02T17:06:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-02T17:06:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-02T17:07:16Z",
+        "text": "I built a REST API with FastAPI and a few data pipelines.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-02T17:09:00Z",
+        "text": "Nice. Can you do an interview Wednesday at 2 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-02T17:09:37Z",
+        "text": "Yes, that's fine.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-02T17:12:03Z",
+        "text": "Great, Wednesday at 2 PM is confirmed. Talk to you then!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 103,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1102",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-03T12:02:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-03T12:02:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-03T12:02:41Z",
+        "text": "About six years, including Django and Celery.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-03T12:04:06Z",
+        "text": "Excellent. Our team lead can meet you Thursday at 11 AM. Does that work?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-03T12:05:29Z",
+        "text": "Sure, Thursday at 11 works for me.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-03T12:06:07Z",
+        "text": "Done, the interview is set for Thursday at 11 AM. Looking forward to it.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 104,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1103",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-04T10:35:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-04T10:35:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-04T10:36:24Z",
+        "text": "Mostly Flask and FastAPI.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-04T10:37:01Z",
+        "text": "Would Monday at 9 AM work for a short interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-04T10:39:16Z",
+        "text": "Monday 9 AM is perfect.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-04T10:40:58Z",
+        "text": "Great, it's on the calendar. You'll receive an invite soon.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 105,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1104",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-05T12:40:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-05T12:40:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-05T12:41:50Z",
+        "text": "Three years, mostly automation scripts and APIs.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-05T12:43:34Z",
+        "text": "Do you have any questions about the role?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-05T12:44:11Z",
+        "text": "No questions for now, I'd be glad to interview.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-05T12:45:54Z",
+        "text": "How about Friday at 1 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-05T12:47:38Z",
+        "text": "Works for me.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-05T12:48:58Z",
+        "text": "Excellent, Friday at 1 PM is reserved for you. See you then!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 106,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1105",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-06T12:02:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-06T12:02:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-06T12:03:41Z",
+        "text": "I maintain an internal Django app and some ETL jobs.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-06T12:06:00Z",
+        "text": "Great experience. Could we schedule an interview for Tuesday at 3 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-06T12:06:47Z",
+        "text": "Ok, see you Tuesday.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-06T12:07:54Z",
+        "text": "Confirmed for Tuesday at 3 PM. A calendar invite is on its way.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 107,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1106",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-07T11:34:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-07T11:34:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-07T11:34:45Z",
+        "text": "Five years. I also know SQL and Docker.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-07T11:36:28Z",
+        "text": "That fits the role well. Are you free Wednesday at 10 AM for an interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-07T11:37:37Z",
+        "text": "Yes, absolutely.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-07T11:39:18Z",
+        "text": "Wonderful, you're scheduled for Wednesday at 10 AM. Thanks!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 108,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1107",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-08T11:06:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-08T11:06:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-08T11:07:44Z",
+        "text": "Django mainly, with PostgreSQL.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-08T11:09:27Z",
+        "text": "Would Thursday at 4 PM suit you for an interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-08T11:11:18Z",
+        "text": "Thursday at 4 PM is good, thanks.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-08T11:12:12Z",
+        "text": "Great, the slot is reserved. Looking forward to speaking with you!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 109,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1108",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-09T10:35:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-09T10:35:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-09T10:37:01Z",
+        "text": "Thanks, but I already accepted another offer.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-09T10:37:39Z",
+        "text": "Congratulations on the new role! Thanks for letting us know, and best of luck.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 110,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1109",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-10T09:39:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-10T09:39:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-10T09:39:56Z",
+        "text": "Sorry, I'm no longer looking for a job.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-10T09:41:29Z",
+        "text": "Understood, thank you for your time. Wishing you all the best.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 111,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1110",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-11T17:27:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-11T17:27:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-11T17:29:09Z",
+        "text": "Four years. What's the salary range?",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-11T17:30:19Z",
+        "text": "The range depends on experience; we can discuss it in detail during the interview.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-11T17:31:48Z",
+        "text": "I see. Honestly I'm not interested anymore, I found something else.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-11T17:33:32Z",
+        "text": "No problem, thanks for letting us know. Good luck!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 112,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1111",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-12T16:23:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-12T16:23:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-12T16:24:08Z",
+        "text": "Please stop texting me.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-12T16:25:09Z",
+        "text": "Sorry for the inconvenience. We won't contact you again.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 113,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1112",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-13T11:44:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-13T11:44:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-13T11:46:09Z",
+        "text": "I think you have the wrong number, I didn't apply for anything.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-13T11:47:10Z",
+        "text": "Apologies for the confusion. We'll remove your number from our list.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 114,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1113",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-14T13:33:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-14T13:33:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-14T13:34:33Z",
+        "text": "I've been using Python for two years.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-14T13:36:55Z",
+        "text": "Great. Would Monday at 11 AM work for an interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-14T13:38:08Z",
+        "text": "Actually, I've decided to stay at my current company. Thanks anyway.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-14T13:40:11Z",
+        "text": "Thanks for letting us know, and best of luck with everything.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 115,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1114",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-15T13:38:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-15T13:38:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-15T13:38:39Z",
+        "text": "I'm not interested in this position, sorry.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-15T13:39:24Z",
+        "text": "No worries at all. Thank you for your time!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 116,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1115",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-16T15:10:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-16T15:10:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-16T15:12:06Z",
+        "text": "FastAPI mostly. But I'm only looking for remote work.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-16T15:13:19Z",
+        "text": "This role is hybrid, two days a week in the office.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-16T15:14:08Z",
+        "text": "Then it's not for me, thanks.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-16T15:16:37Z",
+        "text": "Understood. Thanks for your interest, and good luck in your search.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 117,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1116",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-17T15:02:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-17T15:02:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-17T15:03:55Z",
+        "text": "Five years of Python. Can we do the interview Thursday at 2 PM?",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-17T15:04:34Z",
+        "text": "Thursday at 2 PM works. You're confirmed, and you'll get an invite shortly.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 118,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1117",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-18T17:36:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-18T17:36:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-18T17:38:11Z",
+        "text": "A Django e-commerce site and some scraping tools.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-18T17:40:33Z",
+        "text": "Sounds relevant. Could we set up an interview Monday at 10 AM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-18T17:42:47Z",
+        "text": "Monday is hard for me, but Tuesday at 12 PM would work.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-18T17:43:57Z",
+        "text": "Tuesday at 12 PM it is. The interview is confirmed.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 119,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1118",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-19T14:38:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-19T14:38:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-19T14:39:33Z",
+        "text": "Three years. I'd like to schedule an interview, is Wednesday at 9 AM possible?",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-19T14:41:17Z",
+        "text": "Yes, Wednesday at 9 AM is available. You're all set!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 120,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1119",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-20T16:04:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-20T16:04:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-20T16:06:17Z",
+        "text": "Flask and Pandas mostly.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-20T16:06:58Z",
+        "text": "Great. Are you available Tuesday at 10 AM for an interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-20T16:09:28Z",
+        "text": "I can't on Tuesday, I'm at work.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-20T16:10:32Z",
+        "text": "No problem. How about Wednesday at 5 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-20T16:12:02Z",
+        "text": "Wednesday at 5 works.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-20T16:14:01Z",
+        "text": "Perfect, Wednesday at 5 PM is confirmed. See you then.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 121,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1120",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-21T10:03:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-21T10:03:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-21T10:05:03Z",
+        "text": "Four years, mainly APIs and data processing.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-21T10:07:02Z",
+        "text": "Could you do an interview Thursday at 9 AM or Friday at 11 AM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-21T10:08:11Z",
+        "text": "Neither works, I'm busy this week.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-21T10:10:03Z",
+        "text": "Understood. Would Monday at 2 PM next week be better?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-21T10:11:46Z",
+        "text": "I'm busy then too.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-21T10:13:43Z",
+        "text": "How about Tuesday at 4 PM next week?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 8,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-21T10:15:58Z",
+        "text": "Yes, that one works.",
+        "label": null
+      },
+      {
+        "turn_id": 9,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-21T10:17:25Z",
+        "text": "Great, Tuesday at 4 PM is reserved for you. Thanks!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 122,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1121",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-22T15:56:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-22T15:56:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-22T15:57:55Z",
+        "text": "I've worked on a Django CRM for three years.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-22T15:59:09Z",
+        "text": "Nice. Would you be free for an interview tomorrow at 10 AM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-22T15:59:41Z",
+        "text": "Tomorrow is too soon for me.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-22T16:02:11Z",
+        "text": "Sure, what about Thursday at 3 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-22T16:03:40Z",
+        "text": "Thursday at 3 PM is fine.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-22T16:04:55Z",
+        "text": "Excellent, you're booked. A calendar invite will follow.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 123,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1122",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-23T10:31:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-23T10:31:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-23T10:31:37Z",
+        "text": "Three years with Python and some AWS.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-23T10:32:34Z",
+        "text": "Which AWS services have you used?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-23T10:34:42Z",
+        "text": "Mostly Lambda, S3 and ECS.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-23T10:35:48Z",
+        "text": "Great match for our stack. Would Wednesday at 11 AM work for an interview?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-23T10:36:34Z",
+        "text": "Yes, works for me.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-23T10:38:38Z",
+        "text": "Confirmed for Wednesday at 11 AM. Looking forward to it!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 124,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1123",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-24T15:25:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-24T15:25:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-24T15:27:27Z",
+        "text": "Django and Flask. What does the team work on?",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-24T15:29:48Z",
+        "text": "The team builds internal APIs and data services, mostly in FastAPI.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-24T15:31:21Z",
+        "text": "Is the position full-time?",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-24T15:32:01Z",
+        "text": "Yes, it's a full-time position with a hybrid schedule.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-24T15:32:52Z",
+        "text": "Sounds good, I'd like to move forward.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-24T15:34:19Z",
+        "text": "Great! Can you do an interview Friday at 10 AM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 8,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-24T15:35:40Z",
+        "text": "Friday at 10 is good.",
+        "label": null
+      },
+      {
+        "turn_id": 9,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-24T15:37:20Z",
+        "text": "Perfect, the interview is set for Friday at 10 AM.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 125,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1124",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-25T11:52:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T11:52:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-25T11:53:25Z",
+        "text": "I have two years of Python, mostly data analysis with Pandas.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T11:55:45Z",
+        "text": "Have you worked with SQL databases as well?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-25T11:57:25Z",
+        "text": "Yes, PostgreSQL and a bit of MySQL.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T11:58:30Z",
+        "text": "Do you have any questions about the role?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-25T12:00:30Z",
+        "text": "What technologies do you use for deployment?",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T12:01:53Z",
+        "text": "We deploy to AWS with Docker and ECS.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 8,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-25T12:03:08Z",
+        "text": "Great, I'd be happy to interview.",
+        "label": null
+      },
+      {
+        "turn_id": 9,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T12:05:05Z",
+        "text": "How about Monday at 1 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 10,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-25T12:07:28Z",
+        "text": "Monday at 1 PM works.",
+        "label": null
+      },
+      {
+        "turn_id": 11,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-25T12:08:46Z",
+        "text": "Excellent, you're scheduled. Talk to you Monday!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 126,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1125",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-26T11:05:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-26T11:05:00Z",
+        "text": "Thanks for your interest in our Python Developer role. What Python projects have you worked on recently?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-26T11:05:52Z",
+        "text": "Mostly scripting and some small web apps.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-26T11:06:41Z",
+        "text": "What frameworks did you use for the web apps?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-26T11:07:40Z",
+        "text": "Flask, with SQLAlchemy.",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-26T11:09:34Z",
+        "text": "Thanks. Could you join an interview Tuesday at 2 PM?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-26T11:10:33Z",
+        "text": "Sure.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-26T11:11:04Z",
+        "text": "Great, Tuesday at 2 PM is confirmed. See you then!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 127,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1126",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-27T11:16:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-27T11:16:00Z",
+        "text": "Hello! We received your application for the Python Developer opening. How many years have you worked with Python?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-27T11:17:06Z",
+        "text": "Seven years. Is this role remote?",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-27T11:17:36Z",
+        "text": "It's hybrid, with two office days a week.",
+        "label": "continue"
+      },
+      {
+        "turn_id": 4,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-27T11:18:24Z",
+        "text": "That works for me. What's the next step?",
+        "label": null
+      },
+      {
+        "turn_id": 5,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-27T11:19:47Z",
+        "text": "The next step is an interview with the engineering manager. Is Thursday at 10 AM okay?",
+        "label": "schedule"
+      },
+      {
+        "turn_id": 6,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-27T11:21:25Z",
+        "text": "Thursday at 10 AM is good.",
+        "label": null
+      },
+      {
+        "turn_id": 7,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-27T11:22:42Z",
+        "text": "Great, you're confirmed for Thursday at 10 AM.",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 128,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1127",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-28T14:08:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-28T14:08:00Z",
+        "text": "Hi there, thanks for applying for the Python Developer job. Which Python frameworks are you most comfortable with?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-28T14:09:58Z",
+        "text": "Django. But I'm not ready to interview right now, maybe in a few months.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-28T14:12:17Z",
+        "text": "Totally understand. Feel free to reach out when you're ready. Best of luck!",
+        "label": "end"
+      }
+    ]
+  },
+  {
+    "conversation_id": 129,
+    "source": "synthetic",
+    "candidate_phone": "+1-555-1128",
+    "recruiter_phone": "+1-555-0000",
+    "start_time_utc": "2024-05-29T09:29:00Z",
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-29T09:29:00Z",
+        "text": "Hi, thanks for applying to our Python Developer position. Could you tell me about your Python experience?",
+        "label": "continue"
+      },
+      {
+        "turn_id": 2,
+        "speaker": "candidate",
+        "timestamp_utc": "2024-05-29T09:31:25Z",
+        "text": "Four years. Let me think about it and get back to you.",
+        "label": null
+      },
+      {
+        "turn_id": 3,
+        "speaker": "recruiter",
+        "timestamp_utc": "2024-05-29T09:33:46Z",
+        "text": "Of course. Whenever you're ready, just reply to this message. Thanks!",
+        "label": "end"
+      }
+    ]
+  }
+]

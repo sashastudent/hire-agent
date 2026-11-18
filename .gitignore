@@ -13,3 +13,6 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Trained models (large files - not committed)
+notebooks/models/
