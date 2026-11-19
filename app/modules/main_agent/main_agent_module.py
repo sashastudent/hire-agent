@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.chat_history import InMemoryChatMessageHistory as ChatMessageHistory
 from langchain_core.tools import tool
-from app.modules.conversation_info_advisor.conversation_info_advisor_module import get_info_from_pdf, POSITIONS
+from app.modules.conversation_info_advisor.conversation_info_advisor_module import get_info_from_pdf
 from app.services import scheduling_service
 
 
@@ -27,7 +27,18 @@ def book_interview(position: str, slot_date: str, slot_time: str) -> str:
     return scheduling_service.book_interview(position, slot_date, slot_time)
 
 
-tools = [get_job_info, book_interview]
+@tool
+def mark_candidate_qualified(position: str) -> str:
+    """Call this ONLY after you verified, from the candidate's own answers, that they meet ALL the
+    mandatory requirements of the position. Interviews can be scheduled only after this call.
+    position: the job title, exactly as in the open positions list."""
+    return (f"Recorded: the candidate meets the mandatory requirements for {position}. "
+            "Reply with ONE short sentence saying their background looks relevant for an initial interview. "
+            "Do NOT mention slots, dates or times, and do NOT write 'here are the available slots' - "
+            "the system adds the real slots after your sentence automatically.")
+
+
+tools = [get_job_info, book_interview, mark_candidate_qualified]
 
 prompt_path = Path(__file__).parent / "main_agent_prompt.txt"
 with open(prompt_path, 'r', encoding='utf-8') as f:
@@ -49,14 +60,16 @@ main_prompt = ChatPromptTemplate.from_messages([
                    "end = politely close the conversation."),
         ("user", "{input}"),
         MessagesPlaceholder(variable_name="agent_scratchpad")
-]).partial(positions="\n".join(f"- {p}" for p in POSITIONS))   # fill {positions} from the PDFs in Chroma
+])
 
 main_agent = create_openai_tools_agent(llm, tools=tools, prompt=main_prompt)
-main_executor = AgentExecutor(agent=main_agent, tools=tools, verbose=False)
+# return_intermediate_steps=True -> the result also lists which tools the agent called this turn
+main_executor = AgentExecutor(agent=main_agent, tools=tools, verbose=False, return_intermediate_steps=True)
 
 main_agent_with_memory = RunnableWithMessageHistory(
         main_executor,
         get_session_history=get_history,
         input_messages_key="input",
-        history_messages_key="history"
+        history_messages_key="history",
+        output_messages_key="output",       # the result has 2 keys now - save only "output" to memory
 )

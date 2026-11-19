@@ -4,6 +4,12 @@ from app.db.connection import db, metadata, engine, connection
 schedule = db.Table('Schedule', metadata, autoload_with=engine)
 
 
+def get_positions():
+    """All the position names in the Schedule table, e.g. ['Analyst', 'ML', 'Python Dev', 'Sql Dev']"""
+    query = db.select(schedule.columns.position).distinct()
+    return [row.position for row in connection.execute(query)]
+
+
 def get_available_slots(position, start_date, limit=3):
     """The first `limit` free slots for the position, from start_date onward (earliest first)"""
     query = (

@@ -2,12 +2,9 @@ from app.config import client
 from app.modules.embedding.embedding_module import build_vector_db, EMBEDDING_MODEL
 
 
-# built ONCE per app run (when this module is first imported)
 collection = build_vector_db()
 
-# all the positions we have a PDF for, e.g. ["Python Dev", ...]
 POSITIONS = sorted({m["position"] for m in collection.get(include=["metadatas"])["metadatas"]})
-
 
 def find_position(position):
     """Match the position name case-insensitively ('python dev' -> 'Python Dev')"""

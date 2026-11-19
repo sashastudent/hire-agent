@@ -2,8 +2,15 @@ from datetime import date, time
 from app.db import schedule_repository as schedule_repo
 
 
+POSITIONS = schedule_repo.get_positions()      # the exact position names in the DB
+
+
 def get_available_slots(position, start_date):
     """start_date: 'YYYY-MM-DD'. Returns the slots as readable text for the LLM."""
+    if position not in POSITIONS:
+        # tell the LLM the valid names, so it can call the tool again with the right one
+        return f"Unknown position '{position}'. Use one of these exact names: {', '.join(POSITIONS)}."
+
     rows = schedule_repo.get_available_slots(position, date.fromisoformat(start_date))
     if not rows:
         return f"No available slots for '{position}' from {start_date}."
@@ -14,6 +21,9 @@ def get_available_slots(position, start_date):
 
 def book_interview(position, slot_date, slot_time):
     """slot_date: 'YYYY-MM-DD', slot_time: 'HH:MM'. Reserves the slot and returns the result as text for the LLM."""
+    if position not in POSITIONS:
+        return f"Unknown position '{position}'. Use one of these exact names: {', '.join(POSITIONS)}."
+
     d = date.fromisoformat(slot_date)
     t = time.fromisoformat(slot_time)
 
