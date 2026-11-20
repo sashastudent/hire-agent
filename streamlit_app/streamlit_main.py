@@ -26,7 +26,11 @@ if user_input:
     with st.chat_message("user"):
         st.write(user_input)
 
-    answer = agent.orchestrate_conversation_with_memory(user_input, st.session_state.session_id)
+    answer = None
+
+    with st.spinner("Processing... Please wait."):
+        answer = agent.orchestrate_conversation_with_memory(user_input, st.session_state.session_id)
+    
 
     st.session_state.messages.append({
         "role": "assistant",
