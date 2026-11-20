@@ -9,7 +9,7 @@ import pandas as pd
 load_dotenv()  # Load variables from .env file
 
 SERVER = os.getenv("DB_SERVER", "localhost")
-DATABASE = os.getenv("DB_NAME")
+DATABASE = os.getenv("DB_NAME", "TECH")
 DRIVER = os.getenv("DB_DRIVER", "ODBC Driver 17 for SQL Server")
 AUTH_MODE = os.getenv("DB_AUTH_MODE", "sql").strip().lower()
 USERNAME = os.getenv("DB_USERNAME")

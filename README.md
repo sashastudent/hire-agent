@@ -10,6 +10,13 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
+## Environment configuration
+Create the .env file and add necessary keys:
+OPENAI_API_KEY - your openAI api key, if you don't have one create it here - https://platform.openai.com/api-keys
+AUTH_MODE - the DB authentication mode: sql or windows authentication
+USERNAME - DB user in case sql auth mode is used
+PASSWORD - DB password in case sql auth mode is used
+
 ## Database setup
 
 1. Run the `db_Tech.sql` script provided with the assignment. It creates the `Tech` database and the `Schedule` table, seeded with interview slots for **2024**.
