@@ -11,20 +11,31 @@ load_dotenv()  # Load variables from .env file
 SERVER = os.getenv("DB_SERVER", "localhost")
 DATABASE = os.getenv("DB_NAME")
 DRIVER = os.getenv("DB_DRIVER", "ODBC Driver 17 for SQL Server")
+AUTH_MODE = os.getenv("DB_AUTH_MODE", "sql").strip().lower()
 USERNAME = os.getenv("DB_USERNAME")
 PASSWORD = os.getenv("DB_PASSWORD")
 
-if not all([DATABASE, USERNAME, PASSWORD]):
-    raise RuntimeError("Missing DB_NAME / DB_USERNAME / DB_PASSWORD in .env file")
+if not DATABASE:
+    raise RuntimeError("Missing DB_NAME in .env file")
+
+if AUTH_MODE not in {"sql", "windows"}:
+    raise RuntimeError("Missing DB_AUTH_MODE in .env file. It must be 'sql' or 'windows'")
+
+connection_query = {"driver": DRIVER}
+if AUTH_MODE == "windows":
+    connection_query["trusted_connection"] = "yes"
+else:
+    if not all([USERNAME, PASSWORD]):
+        raise RuntimeError("Missing DB_USERNAME / DB_PASSWORD in .env file")
 
 # URL.create escapes special characters in the password safely
 DATABASE_CONNECTION = URL.create(
     "mssql+pyodbc",
-    username=USERNAME,
-    password=PASSWORD,
+    username=USERNAME if AUTH_MODE == "sql" else None,
+    password=PASSWORD if AUTH_MODE == "sql" else None,
     host=SERVER,
     database=DATABASE,
-    query={"driver": DRIVER},
+    query=connection_query,
 )
 
 engine = db.create_engine(DATABASE_CONNECTION)
